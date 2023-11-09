@@ -1,5 +1,5 @@
-import { Viaje } from "../models/Viaje.js"
-import { Testimonial } from "../models/testimonial.js"
+import {Viaje}  from "../models/Viaje.js"
+import  {Testimonial}  from "../models/Testimonial.js"
 import  Sequelize  from "sequelize"
 const paginaDeInicio = async (req,res) => { // req -- lo que enviamos : res -- lo que nos responde express
     
